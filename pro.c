@@ -19,10 +19,6 @@ scanf("%d",&n);
 struct data y[n];
 for(i=0;i<n;i++)
 {
-printf("enter the name of process %d,\n",i);
-scanf("%s",&y[i].pname);
-printf("enter the arrival time and burst time %d\n",i);
-scanf("%d%d",&y[i].at,&y[i].bt);
 }
 for(i=0;i<n;i++)
 {
